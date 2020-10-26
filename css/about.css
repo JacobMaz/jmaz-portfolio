@@ -1,0 +1,68 @@
+#aboutMe {
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+
+#aboutMeHeader {
+    text-align: center;
+    margin-bottom: 3vh;
+    color: black;
+    /* color: rgb(0, 136, 255); */
+    border-top: 2px solid rgb(0, 136, 255);
+    border-bottom: 2px solid rgb(0, 136, 255);
+    font-family: 'Questrial', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#headingOne{
+    background-color: rgb(0, 136, 255);
+    padding: 4px 4px 4px 4px;
+}
+#whoAmI {
+    background-color: rgb(35,35,35);
+}
+#whoAmIBtn {
+    display: flex;
+        justify-content: center;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+}
+
+#headingTwo{
+    background-color: rgb(0, 136, 255);
+    padding: 4px 4px 4px 4px;
+}
+#whyWebDev {
+    background-color: rgb(35,35,35);
+}
+#whyWebDevBtn {
+    display: flex;
+        justify-content: center;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+}
+
+#headingThree{
+    background-color: rgb(0, 136, 255);
+    padding: 4px 4px 4px 4px;
+}
+#languages {
+    background-color: rgb(35,35,35);
+}
+#langBtn {
+    display: flex;
+        justify-content: center;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+}
+
+#whoAmIBody {
+    background-color: rgb(245, 245, 245);
+}
+#whyWebDevBody {
+    background-color: rgb(245, 245, 245);
+}
