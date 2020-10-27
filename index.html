@@ -250,20 +250,46 @@
       <div id="contactMeTitleDiv">
         <h3 id="contactMeTitle">Contact Me</h3>
       </div>
-      <form action="https://formspree.io/f/mrgoqbey" method="POST" id="contactForm">
+      <form id="contactForm" action="https://formspree.io/f/xqkgqrlk" method="POST">
         <div class="formTop">
-          <label class="formLables">Your Name:</label><input type="text" name="_replyto">
-          <label class="formLables">Your Email:</label><input type="text" name="_replyto">
+          <label>
+            Your Name:<br>
+            <input type="text" name="name">
+          </label>
+          <label>
+            Your email:<br>
+            <input type="text" name="_replyto">
+          </label>
         </div>
         <div class="formBottom">
-          <label class="formLables">Subject:</label><input type="text" name="_replyto">
-          <label class="formLables">Your Message:</label><textarea name="message" id="textarea"></textarea>
+          <label>
+            Subject:<br>
+            <input type="text" name="subject">
+          </label>
+          <label>
+            Your message:<br>
+            <textarea id="textarea" name="message"></textarea>
+          </label>
+        </div>
+        <div id="contactMeBtnDiv">
+          <button id="contactMeBtn" type="submit">Send</button>
         </div>
       </form>
-      <div id="contactMeBtnDiv">
-        <button type="submit" id="contactMeBtn">SEND!</button>
-      </div>
     </div>
+
+    <!-- <footer class="footer">
+      <div class="footercontainer">
+        <div class="footerJMaz">
+          <h6>Jacob Mazanowski</h6>
+        </div>
+        <div class="footerLinks">
+          <a class="githublink" href="https://github.com/JacobMaz" target="blank"><img id="githubLogo"
+              src="assets/githubLogo.png" alt=""></a>
+          <a class="linkedinLink" href="https://www.linkedin.com/in/jacob-mazanowski-9633a0192/" target="blank"><img
+              id="linkedinLogo" src="assets/linkedinLogo.png" alt=""></a>
+        </div>
+      </div>
+    </footer> -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
