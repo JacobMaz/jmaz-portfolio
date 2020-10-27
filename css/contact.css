@@ -1,0 +1,81 @@
+#contactDiv {
+    display: flex;
+        align-items: center;
+        flex-direction: column;
+    margin-top: 15vh;
+}
+
+#contactMeTitleDiv {
+    border-top: 2px solid rgb(0, 136, 255);
+    border-bottom: 2px solid rgb(0, 136, 255);
+    margin-bottom: 7vh;
+}
+
+#contactMeTitle {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 700;
+}
+
+#contactForm {
+    /* background-color: gray; */
+    margin-top: 5vh;
+    height: 10em;
+    width: 50%;
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+}
+
+#textarea {
+    height: 30px;
+    width: 175px;
+}
+
+.formTop {
+    /* background-color: gray; */
+    height: 50%;
+    border-top: 2px solid rgb(0, 136, 255);
+    width: 100%;
+    text-align: center;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    margin-bottom: 2vh;
+}
+
+.formBottom {
+    /* background-color: gray; */
+    border-top: 2px solid rgb(0, 136, 255);
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    margin-bottom: 10vh;
+}
+
+#contactMeBtnDiv {
+    /* background-color: gray; */
+    height: 80px;
+    width: 20%;
+    border-top: 2px solid rgb(0, 136, 255);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+#contactMeBtn {
+    height: 40px;
+    width: 130px;
+    background-color: rgb(35,35,35);
+    border: 3px solid rgb(0, 136, 255);
+    color: white;
+    font-family: 'Questrial', sans-serif;
+}
