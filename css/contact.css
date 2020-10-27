@@ -8,7 +8,7 @@
 #contactMeTitleDiv {
     border-top: 2px solid rgb(0, 136, 255);
     border-bottom: 2px solid rgb(0, 136, 255);
-    margin-bottom: 7vh;
+    margin-bottom: 3em;
 }
 
 #contactMeTitle {
@@ -58,7 +58,7 @@
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
 }
 
 #contactMeBtnDiv {
