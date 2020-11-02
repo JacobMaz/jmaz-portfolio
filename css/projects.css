@@ -46,3 +46,7 @@
 #blueBadge {
     height: 250px;
 }
+
+.projCard:hover {
+    box-shadow: 3px 3px 5px 5px rgb(112, 225, 172), -3px -3px 5px 5px rgb(112, 225, 172);
+}
