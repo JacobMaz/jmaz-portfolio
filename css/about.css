@@ -4,80 +4,83 @@
         flex-direction: column;
         align-items: center;
     align-self: center;
+    
 }
 
 #aboutMeHeader {
     text-align: center;
     margin-bottom: 3vh;
-    color: black;
-    border-top: 2px solid rgb(0, 136, 255);
-    border-bottom: 2px solid rgb(0, 136, 255);
+    color: rgb(112, 225, 172);
+    border-top: 2px solid rgb(205, 205, 205);
+    border-bottom: 2px solid rgb(205, 205, 205);
     font-family: 'Questrial', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
 #headingOne{
-    background-color: rgb(0, 136, 255);
+    background-color: rgb(21, 53, 70);
     padding: 4px 4px 4px 4px;
 }
 #whoAmI {
-    background-color: rgb(35,35,35);
+    background-color: rgb(112, 225, 172);
 }
 #whoAmIBtn {
     display: flex;
         justify-content: center;
-    color: white;
+    color: rgb(21, 53, 70);
     font-family: 'Questrial', sans-serif;
     font-size: 18px;
 }
 
 #headingTwo{
-    background-color: rgb(0, 136, 255);
+    background-color: rgb(21, 53, 70);
     padding: 4px 4px 4px 4px;
 }
 #whyWebDev {
-    background-color: rgb(35,35,35);
+    background-color: rgb(112, 225, 172);
 }
 #whyWebDevBtn {
     display: flex;
         justify-content: center;
-    color: white;
+    color: rgb(21, 53, 70);
     font-family: 'Questrial', sans-serif;
     font-size: 18px;
 }
 
 #headingThree{
-    background-color: rgb(0, 136, 255);
+    background-color: rgb(21, 53, 70);
     padding: 4px 4px 4px 4px;
 }
 #resumeHeader {
-    background-color: rgb(35,35,35);
+    background-color: rgb(112, 225, 172);
 }
 #resumeBtn {
     display: flex;
         justify-content: center;
-    color: white;
+    color: rgb(21, 53, 70);
     font-family: 'Questrial', sans-serif;
     font-size: 18px;
 }
 
 #whoAmIBody {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(205, 205, 205);
 }
 #whyWebDevBody {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(205, 205, 205);
 }
 #resumeBody {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(205, 205, 205);
     display: flex;
         flex-direction: column;
         align-items: center;
 }
 
 #resumeDownload {
-    background-color: black;
+    background-color: rgb(21, 53, 70);
+    color: rgb(112, 225, 172);
     height: 3em;
     width: 8em;
+    border: 2px solid rgb(112, 225, 172);
     border-radius: 5px;
     display: flex;
         justify-content: center;

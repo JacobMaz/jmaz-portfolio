@@ -1,13 +1,17 @@
 #contactDiv {
+    background-color: rgb(205,205,205);
+    height: 25em;
     display: flex;
         align-items: center;
         flex-direction: column;
-    margin-top: 15vh;
+        margin-top: 3em;
 }
 
 #contactMeTitleDiv {
-    border-top: 2px solid rgb(0, 136, 255);
-    border-bottom: 2px solid rgb(0, 136, 255);
+    color: rgb(21, 53, 70);
+    border-top: 2px solid rgb(29,29,29);
+    border-bottom: 2px solid rgb(29,29,29);
+    margin-top: 3em;
     margin-bottom: 3em;
 }
 
@@ -17,7 +21,7 @@
 }
 
 #contactForm {
-    /* background-color: gray; */
+    color: rgb(21, 53, 70);
     margin-top: 5vh;
     height: 10em;
     width: 50%;
@@ -36,7 +40,7 @@
 .formTop {
     /* background-color: gray; */
     height: 50%;
-    border-top: 2px solid rgb(0, 136, 255);
+    border-top: 2px solid rgb(29,29,29);
     width: 100%;
     text-align: center;
     display: flex;
@@ -49,7 +53,7 @@
 
 .formBottom {
     /* background-color: gray; */
-    border-top: 2px solid rgb(0, 136, 255);
+    border-top: 2px solid rgb(29,29,29);
     height: 50%;
     width: 100%;
     text-align: center;
@@ -64,7 +68,7 @@
 #contactMeBtnDiv {
     /* background-color: gray; */
     width: 30%;
-    border-top: 2px solid rgb(0, 136, 255);
+    border-top: 2px solid rgb(29,29,29);
     display: flex;
         justify-content: center;
         align-items: center;
@@ -75,9 +79,9 @@
 #contactMeBtn {
     height: 40px;
     width: 130px;
-    background-color: rgb(35,35,35);
-    border: 3px solid rgb(0, 136, 255);
+    background-color: rgb(112, 225, 172);
+    border: 3px solid rgb(21, 53, 70);
     border-radius: 5px;
-    color: white;
+    color: rgb(21, 53, 70);
     font-family: 'Questrial', sans-serif;
 }
